@@ -43,7 +43,7 @@ a:hover, a:active {
 
 }
 
-.selfie-container:hover {
+.selfie-container:hover, .selfie-container:active {
     transform: scale(1.2);
 }
 
@@ -56,7 +56,7 @@ a:hover, a:active {
     
 }
 
-.selfie-inner:hover {
+.selfie-inner:hover, .selfie-inner:active {
 
     outline: 3.1px dashed white;
     outline-offset: 4px;
@@ -164,7 +164,9 @@ nav {
 }
 
 .grid1-contain:hover, .grid2-contain:hover,
-.grid3-contain:hover, .grid4-contain:hover {
+.grid3-contain:hover, .grid4-contain:hover,
+.grid1-contain:active, .grid2-contain:active,
+.grid3-contain:active, .grid4-contain:active {
     transform: scale(1.1);
 }
 
@@ -210,7 +212,9 @@ footer {
     }
 
     .grid1-contain:hover, .grid2-contain:hover,
-    .grid3-contain:hover, .grid4-contain:hover {
+    .grid3-contain:hover, .grid4-contain:hover,
+     .grid1-contain:active, .grid2-contain:active,
+    .grid3-contain:active, .grid4-contain:active {
     transform: scale(0.9);
 }
 }
